@@ -16,7 +16,7 @@ function App() {
       const resdata=await res.json();
       setData(resdata);
     }catch{
-      alert("Sorry there was an error!");
+      alert("Sorry couldn't fetch the climate!");
     }
   }
   
